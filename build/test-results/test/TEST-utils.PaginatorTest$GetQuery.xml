@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="getQuery" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-04T15:55:17" hostname="Rons-MBP" time="0.001">
+  <properties/>
+  <testcase name="returns the correct query when one values is provided" classname="utils.PaginatorTest$GetQuery" time="0.0"/>
+  <testcase name="returns the correct query when multiple values are provided" classname="utils.PaginatorTest$GetQuery" time="0.0"/>
+  <testcase name="returns empty string when no values are provided" classname="utils.PaginatorTest$GetQuery" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
