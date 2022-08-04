@@ -8,7 +8,7 @@
 ### Rational:
 The app is built using [Reactor Netty](https://projectreactor.io/docs/netty/release/reference/index.html) which supports creating reactive non-blocking http clients
 
-* All methods are currently returning either a `Flux` or a `Mono` which represents a reactive stream, those are easily convertable to either a `Collection` or an `Object` respectively, but allow users with reactive application to consume the API in a non-blocking manner
+* All methods are currently returning either a `Flux` or a `Mono` which represents a reactive stream, those are easily convertible to either a `Collection` or an `Object` respectively, but allow users with reactive application to consume the API in a non-blocking manner
 * While HTTP payloads are not reactive by nature, using `Reactor Netty` allows us to support streaming in the form of SSR or Websocket with minimal effort should the API change
 
 ### To Do:
