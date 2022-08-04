@@ -46,10 +46,7 @@ public class HttpClient {
   }
 
   private reactor.netty.http.client.HttpClient.ResponseReceiver<?> makeGetRequest(String endPoint) {
-
     return httpClient.headers(this::setKey).get().uri(SLASH + endPoint);
-    //    return httpClient.headers((HttpHeaders h) -> h.set("Authorization", "Bearer
-    // EtHm6nWII946CzbiCEta")).get().uri(SLASH + endPoint);
   }
 
   private <T> List<T> deserialize(InputStream response, Class<T> clazz) {

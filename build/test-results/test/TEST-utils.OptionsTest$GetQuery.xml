@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="buildQuery" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-04T15:55:17" hostname="Rons-MBP" time="0.005">
+<testsuite name="buildQuery" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-04T16:05:34" hostname="Rons-MBP" time="0.004">
   <properties/>
   <testcase name="returns the query when one values is provided" classname="utils.OptionsTest$GetQuery" time="0.001"/>
-  <testcase name="returns the correct query when multiple values are provided" classname="utils.OptionsTest$GetQuery" time="0.004"/>
+  <testcase name="returns the correct query when multiple values are provided" classname="utils.OptionsTest$GetQuery" time="0.003"/>
   <testcase name="returns empty string when no values are provided" classname="utils.OptionsTest$GetQuery" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

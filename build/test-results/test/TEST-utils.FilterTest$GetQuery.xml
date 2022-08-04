@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="getQuery" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-04T15:55:17" hostname="Rons-MBP" time="0.01">
+<testsuite name="getQuery" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-04T16:05:34" hostname="Rons-MBP" time="0.016">
   <properties/>
-  <testcase name="returns an empty string when no values are provided" classname="utils.FilterTest$GetQuery" time="0.009"/>
+  <testcase name="returns an empty string when no values are provided" classname="utils.FilterTest$GetQuery" time="0.015"/>
   <testcase name="returns the correct query when any values are provided" classname="utils.FilterTest$GetQuery" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

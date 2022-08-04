@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="read" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-04T15:55:17" hostname="Rons-MBP" time="0.013">
+<testsuite name="read" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-04T16:05:34" hostname="Rons-MBP" time="0.013">
   <properties/>
-  <testcase name="when present, deserializes textual urls into URL objects" classname="utils.URLDeserializerTest$Read" time="0.013"/>
+  <testcase name="when present, deserializes textual urls into URL objects" classname="utils.URLDeserializerTest$Read" time="0.012"/>
   <testcase name="when malformed url is present, it skips deserialization and returns null" classname="utils.URLDeserializerTest$Read" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
